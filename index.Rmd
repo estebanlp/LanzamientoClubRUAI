@@ -4,28 +4,28 @@ author      : "Esteban Lopez"
 job         : "Profesor Escuela de Negocios / Investigador CEPR"
 date        : "23.11.17"
 output      : ioslides_presentation
+
 ---
-
 ##¿Qué es la Economía Regional y Urbana?
-<iframe src="https://github.com/estebanlp/LanzamientoClubRUAI/blob/master/RUAIPresentationNov2017-figure/fig1.png" heingt='600px'></iframe>
 
+\includegraphics[width=\textwidth]{"./RUAIPresentationNov2017-figure/fig1.png"}
 
-***
 - La población se concentra -- ¿Porqué?
 
-
+---
 ## Slide with Bullets
 
 - Bullet 1
 - Bullet 2
 - Bullet 3
 
+---
 ## Slide with R Output
 
 ```{r cars, echo = TRUE}
 summary(cars)
 ```
-
+---
 ## Slide with Plot
 
 ```{r pressure}
