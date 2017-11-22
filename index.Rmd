@@ -1,25 +1,90 @@
 ---
 title: "R como herramienta para la Economía Regional y Urbana"
-author: "Esteban Lopez"
-job: "Profesor Escuela de Negocios / Investigador CEPR"
+author: "Esteban Lopez, Prof. Escuela de Negocios UAI"
 date: "23.11.17"
-output:
-  slidy_presentation: default
-  ioslides_presentation: default
-  beamer_presentation: default
-
+mode        : selfcontained
+output: 
+  slidy_presentation:
+    incremental: false
+    logo: ![](./RUAIPresentationNov2017-figure/fig1.png)
 --- 
+
 ##¿Qué es la Economía Regional y Urbana?
 ![](./RUAIPresentationNov2017-figure/fig1.png)
 
---- 
+
 ## Hechos Estilizados
-- La población se concentra -- ¿Porqué?
-- Algunas regiones están más desarroladas que otras
-- Los precios de algunos productos cuestan más caros en algunas ciudades más que en otras
-- Hoy en día, el éxito de una persona en Chile depende de donde nace. 
+Situación actual
 
-> ¿Qué podemos hacer al respecto?
+> - La población se concentra, ¿Porqué?
+> - Algunas regiones están más desarroladas que otras
+> - Los precios de algunos productos cuestan más caros en algunas ciudades más que en otras
+> - Hoy en día, el éxito de una persona en Chile depende de donde nace. 
 
----
-## Investigación Regional Urbana
+***
+Chile y su población
+```{r,echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+library(maptools)
+path<-"/Users/estebanlopez/Dropbox/Documents/005 Teaching/005 Taller R UAI/2018/Lanzamiento/"
+proj.CL<- "+proj=longlat +datum=WGS84 +no_defs"
+map0<-readShapePoly(paste0(path,"/Mapas/regiones_chile/regiones_chile.shp"),proj4string = CRS(as.character(proj.CL)))
+
+colors <- sort(heat.colors(5, alpha = 0.8),decreasing = T)
+MP.Palette <- colorNumeric(palette = colors, domain=map0@data$POP_ADMIN)
+regCL.popup <- paste0("<b>Región: ", map0@data$ADMIN_NAME, "</b><br />Población 2010: ", map0@data$POP_ADMIN)
+
+leaflet(map0) %>%
+  addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
+  addPolygons(stroke=TRUE,
+              weight=1,
+              smoothFactor = 0.4, 
+              fillOpacity = .8, 
+              popup=regCL.popup, 
+              color= ~MP.Palette(map0@data$POP_ADMIN)
+              ) %>%
+  addLegend("bottomleft",pal=MP.Palette,values=~POP_ADMIN)
+```
+
+***
+Chile Deformado por Población
+```{r,echo=FALSE, message=FALSE, warning=FALSE}
+library(leaflet)
+library(maptools)
+path<-"/Users/estebanlopez/Dropbox/Documents/005 Teaching/005 Taller R UAI/2018/Lanzamiento/"
+proj.CL<- "+proj=longlat +datum=WGS84 +no_defs"
+map1<-readShapePoly(paste0(path,"/Mapas/regiones_chile_deformPOP.shp"),proj4string = CRS(as.character(proj.CL)))
+
+colors <- sort(heat.colors(5, alpha = 0.8),decreasing = T)
+MP.Palette <- colorNumeric(palette = colors, domain=map1@data$POP_ADMIN)
+regCL.popup <- paste0("<b>Región: ", map1@data$ADMIN_NAME, "</b><br />Población 2010: ", map1@data$POP_ADMIN)
+
+leaflet(map1) %>%
+  addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
+  addPolygons(stroke=TRUE,
+              weight=1,
+              smoothFactor = 0.4, 
+              fillOpacity = .8, 
+              popup=regCL.popup, 
+              color= ~MP.Palette(map1@data$POP_ADMIN)
+              ) %>%
+  addLegend("bottomleft",pal=MP.Palette,values=~POP_ADMIN)
+```
+
+***
+Pero también:...
+
+> - Estamos en la era de la información
+> - Tenemos más recursos que nunca
+> - Cambio en el paradigma dominante hacia mirar más el detalle
+> - Ejemplos:
+
+***
+##www.ide.cl
+<iframe src="http://www.ide.cl/descarga/capas.html" height='600px' width ='1100px' sandbox='allow-top-'></iframe>
+
+## Investigación Regional y Urbana
+- Pero también:...
+- Estamos en la era de la información
+- Tenemos más recursos que nunca
+- Cambio en el paradigma dominante hacia mirar más el detalle
