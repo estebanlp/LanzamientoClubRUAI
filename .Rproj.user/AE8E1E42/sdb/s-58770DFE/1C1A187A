@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\ntitle       : \"R como herramienta para la Economía Regional y Urbana\" \nauthor      : \"Esteban Lopez\"\njob         : \"Profesor Escuela de Negocios / Investigador CEPR\"\ndate        : \"23.11.17\"\noutput      : ioslides_presentation\n---\n\n##¿Qué es la Economía Regional y Urbana?\n<iframe src=\"https://www.google.cl/imgres?imgurl=http%3A%2F%2Ftwanight.org%2FnewTWAN%2Fimages%2FEarth_at_Night_Image_Mapping_600x300.jpg&imgrefurl=http%3A%2F%2Ftwanight.org%2FnewTWAN%2Fgalleries_page.asp&docid=L5xyKg3NXs8PtM&tbnid=2aQR6xb7ACTfkM%3A&vet=10ahUKEwj2idXUstLXAhUTmJAKHYPRBD8QMwjzASgDMAM..i&w=600&h=300&bih=755&biw=1417&q=world%20at%20night&ved=0ahUKEwj2idXUstLXAhUTmJAKHYPRBD8QMwjzASgDMAM&iact=mrc&uact=8\" heingt='600px'></iframe>\n\n\n***\n- La población se concentra -- ¿Porqué?\n\n\n## Slide with Bullets\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n## Slide with R Output\n\n```{r cars, echo = TRUE}\nsummary(cars)\n```\n\n## Slide with Plot\n\n```{r pressure}\nplot(pressure)\n```\n\n",
+    "contents" : "---\ntitle       : \"R como herramienta para la Economía Regional y Urbana\" \nauthor      : \"Esteban Lopez\"\njob         : \"Profesor Escuela de Negocios / Investigador CEPR\"\ndate        : \"23.11.17\"\noutput      : ioslides_presentation\n---\n\n##¿Qué es la Economía Regional y Urbana?\n<iframe src=\"https://github.com/estebanlp/LanzamientoClubRUAI/blob/master/RUAIPresentationNov2017-figure/fig1.png\" heingt='600px'></iframe>\n\n\n***\n- La población se concentra -- ¿Porqué?\n\n\n## Slide with Bullets\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n## Slide with R Output\n\n```{r cars, echo = TRUE}\nsummary(cars)\n```\n\n## Slide with Plot\n\n```{r pressure}\nplot(pressure)\n```\n\n",
     "created" : 1511361881907.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "919289337",
+    "hash" : "2700866578",
     "id" : "1C1A187A",
-    "lastKnownWriteTime" : 1511361883,
-    "last_content_update" : 1511361883681,
+    "lastKnownWriteTime" : 1511361979,
+    "last_content_update" : 1511361979732,
     "path" : "~/Dropbox/Documents/005 Teaching/005 Taller R UAI/2018/Lanzamiento/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {

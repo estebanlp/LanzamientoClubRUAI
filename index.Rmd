@@ -7,7 +7,7 @@ output      : ioslides_presentation
 ---
 
 ##¿Qué es la Economía Regional y Urbana?
-<iframe src="https://www.google.cl/imgres?imgurl=http%3A%2F%2Ftwanight.org%2FnewTWAN%2Fimages%2FEarth_at_Night_Image_Mapping_600x300.jpg&imgrefurl=http%3A%2F%2Ftwanight.org%2FnewTWAN%2Fgalleries_page.asp&docid=L5xyKg3NXs8PtM&tbnid=2aQR6xb7ACTfkM%3A&vet=10ahUKEwj2idXUstLXAhUTmJAKHYPRBD8QMwjzASgDMAM..i&w=600&h=300&bih=755&biw=1417&q=world%20at%20night&ved=0ahUKEwj2idXUstLXAhUTmJAKHYPRBD8QMwjzASgDMAM&iact=mrc&uact=8" heingt='600px'></iframe>
+<iframe src="https://github.com/estebanlp/LanzamientoClubRUAI/blob/master/RUAIPresentationNov2017-figure/fig1.png" heingt='600px'></iframe>
 
 
 ***
