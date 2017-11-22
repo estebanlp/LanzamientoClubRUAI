@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\ntitle       : \"R como herramienta para la Economía Regional y Urbana\" \nauthor      : \"Esteban Lopez\"\njob         : \"Profesor Escuela de Negocios / Investigador CEPR\"\ndate        : \"23.11.17\"\noutput      : ioslides_presentation\n\n---\n##¿Qué es la Economía Regional y Urbana?\n\n\\includegraphics[width=\\textwidth]{\"./RUAIPresentationNov2017-figure/fig1.png\"}\n\n- La población se concentra -- ¿Porqué?\n\n---\n## Slide with Bullets\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n---\n## Slide with R Output\n\n```{r cars, echo = TRUE}\nsummary(cars)\n```\n---\n## Slide with Plot\n\n```{r pressure}\nplot(pressure)\n```\n\n",
+    "contents" : "---\ntitle: \"R como herramienta para la Economía Regional y Urbana\"\nauthor: \"Esteban Lopez\"\njob: \"Profesor Escuela de Negocios / Investigador CEPR\"\ndate: \"23.11.17\"\noutput:\n  slidy_presentation: default\n  ioslides_presentation: default\n  beamer_presentation: default\n\n--- \n##¿Qué es la Economía Regional y Urbana?\n![](./RUAIPresentationNov2017-figure/fig1.png)\n\n--- \n## Hechos Estilizados\n- La población se concentra -- ¿Porqué?\n- Algunas regiones están más desarroladas que otras\n- Los precios de algunos productos cuestan más caros en algunas ciudades más que en otras\n- Hoy en día, el éxito de una persona en Chile depende de donde nace. \n\n> ¿Qué podemos hacer al respecto?\n\n---\n## Investigación Regional Urbana\n",
     "created" : 1511361881907.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2925006080",
+    "hash" : "1151569586",
     "id" : "1C1A187A",
-    "lastKnownWriteTime" : 1511363985,
-    "last_content_update" : 1511363985601,
+    "lastKnownWriteTime" : 1511365561,
+    "last_content_update" : 1511365561199,
     "path" : "~/Dropbox/Documents/005 Teaching/005 Taller R UAI/2018/Lanzamiento/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
