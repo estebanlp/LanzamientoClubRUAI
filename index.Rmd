@@ -81,7 +81,7 @@ Pero también:...
 
 ***
 ##www.ide.cl
-<iframe src="http://www.ide.cl/descarga/capas.html" height='600px' width ='1100px' sandbox='allow-top-'></iframe>
+<iframe src="websites/Capas - IDE-Chile.html" height='600px' width ='1100px' sandbox='allow-top-'></iframe>
 
 ## Investigación Regional y Urbana
 - Pero también:...
