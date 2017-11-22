@@ -1,0 +1,29 @@
+
+R como herramienta para la Economía Regional y Urbana 
+========================================================
+author: Esteban Lopez Ochoa (Profesor Escuela de Negocios)
+date: 23.11.17
+autosize: true
+font-family: 'Monaco'
+
+
+¿Qué es la Economía Regional y Urbana?
+========================================================
+![](./RUAIPresentationNov2017-figure/fig1.png)
+
+***
+- La población se concentra -- ¿Porqué?
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
