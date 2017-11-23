@@ -94,16 +94,19 @@ Pero también:...
 ***
 ## Investigación Regional y Urbana - **_¿Qué hacemos?_**
 R Package: GoogleDataSearch
+
 ![Google Maps Search](./RUAIPresentationNov2017-figure/package1.png)
 
 ***
 R Package: GoogleDataSearch
+
 ![R Package](./RUAIPresentationNov2017-figure/package2.png)
 
 
 
 ***
 Estadísticas de Empleo
+
 ```{r,echo=FALSE,message=FALSE, warning=FALSE}
 ####### Labor Market Graphs - UAI 2017 - For MILENIO - 20.10.17
 library(foreign)
@@ -134,6 +137,7 @@ dd
 
 ***
 Modelos de Decisión Residencial
+
 ![](./RUAIPresentationNov2017-figure/06SD500RepsVSCurrent.png)
 
 
